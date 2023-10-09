@@ -11,14 +11,14 @@ export type AmplifyDependentResourcesAttributes = {
     }
   },
   "interactions": {
-    "chatbot": {
+    "fisherbot": {
       "BotName": "string",
       "FunctionArn": "string",
       "Region": "string"
     }
   },
   "storage": {
-    "s3cac3f915": {
+    "s303847029": {
       "BucketName": "string",
       "Region": "string"
     }

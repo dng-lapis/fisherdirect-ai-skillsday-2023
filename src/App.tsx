@@ -9,7 +9,7 @@ function App() {
   // Provide a bot name and user input
   const sendQuestion = async () => {
     const response = await Interactions.send(
-      "OrderFlowers_dev",
+      "OrderFlowers_main",
       userInput ?? ""
     );
     setMessageHistory((prev) => [...prev, userInput ?? "", response.message]);
@@ -23,9 +23,11 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold underline m-8 p-4">
-        Say Hello to the World's Best FisherDirect Assistant - Powered by AI
-      </h1>
+      <div className="writer">
+        <h1 className="text-3xl font-bold underline m-8 p-4 writer-text">
+          Hi! 👋 I'm the FisherDirect Assistant
+        </h1>
+      </div>
       <CenteredOneColumn className="mt-20">
         <CenteredOneColumn width="30rem" className="mb-20">
           {messageHistory.length !== 0 && (
@@ -40,7 +42,7 @@ function App() {
             onChange={onChangeHandler}
             value={userInput ?? ""}
           />
-          <button className="btn btn-secondary" onClick={sendQuestion}>
+          <button className="btn" onClick={sendQuestion}>
             <Send />
           </button>
         </div>
@@ -76,13 +78,13 @@ const ChatBlob = ({ messageHistory }: { messageHistory: string[] }) => (
       if (index % 2 === 0) {
         return (
           <div className="chat chat-end" key={index}>
-            <div className="chat-bubble">{message}</div>
+            <div className="chat-bubble chat-bubble-primary">{message}</div>
           </div>
         );
       } else {
         return (
           <div className="chat chat-start" key={index}>
-            <div className="chat-bubble">{message}</div>
+            <div className="chat-bubble chat-bubble-secondary">{message}</div>
           </div>
         );
       }

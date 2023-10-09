@@ -1,5 +1,5 @@
 {
-    "resourceName": "chatbot",
+    "resourceName": "fisherbot",
     "intents": [
         {
             "cancelMessage": "Okay, I will not place your order.",

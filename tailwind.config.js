@@ -6,9 +6,9 @@ module.exports = {
   },
   daisyui: {
     themes: [
-      {
-        cyberpunk: {
-          ...require("daisyui/src/theming/themes")["[data-theme=cyberpunk]"],
+      // {
+      //   cyberpunk: {
+      //     ...require("daisyui/src/theming/themes")["[data-theme=cyberpunk]"],
           // primary: "#e8b166",
           // secondary: "#c7fc9c",
           // accent: "#d36243",
@@ -18,8 +18,8 @@ module.exports = {
           // success: "#18a075",
           // warning: "#efd348",
           // error: "#e8352c",
-        },
-      },
+        // },
+      // },
       {
         cupcake: {
           ...require("daisyui/src/theming/themes")["[data-theme=cupcake]"],

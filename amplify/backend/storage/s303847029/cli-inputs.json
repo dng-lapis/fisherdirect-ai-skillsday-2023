@@ -1,7 +1,7 @@
 {
-  "resourceName": "s3cac3f915",
-  "policyUUID": "cac3f915",
-  "bucketName": "fisheraiskillsday234b4ccef42d824f208984c35596e7",
+  "resourceName": "s303847029",
+  "policyUUID": "03847029",
+  "bucketName": "fisherdirectaiskillsff83ebf2e84f4a598ba9666b771",
   "storageAccess": "authAndGuest",
   "guestAccess": [
     "CREATE_AND_UPDATE",

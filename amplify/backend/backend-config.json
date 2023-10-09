@@ -18,32 +18,32 @@
     }
   },
   "interactions": {
-    "chatbot": {
+    "fisherbot": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lex"
     }
   },
   "parameters": {
-    "AMPLIFY_interactions_chatbot_deploymentBucketName": {
+    "AMPLIFY_interactions_fisherbot_deploymentBucketName": {
       "usedBy": [
         {
           "category": "interactions",
-          "resourceName": "chatbot"
+          "resourceName": "fisherbot"
         }
       ]
     },
-    "AMPLIFY_interactions_chatbot_s3Key": {
+    "AMPLIFY_interactions_fisherbot_s3Key": {
       "usedBy": [
         {
           "category": "interactions",
-          "resourceName": "chatbot"
+          "resourceName": "fisherbot"
         }
       ]
     }
   },
   "storage": {
-    "s3cac3f915": {
+    "s303847029": {
       "dependsOn": [],
       "providerPlugin": "awscloudformation",
       "service": "S3"
