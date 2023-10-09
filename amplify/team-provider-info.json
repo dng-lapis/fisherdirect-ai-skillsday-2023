@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-fisheraiskillsday23-dev-160755-authRole",
+      "UnauthRoleArn": "arn:aws:iam::437737057749:role/amplify-fisheraiskillsday23-dev-160755-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::437737057749:role/amplify-fisheraiskillsday23-dev-160755-authRole",
+      "Region": "ap-southeast-2",
+      "DeploymentBucketName": "amplify-fisheraiskillsday23-dev-160755-deployment",
+      "UnauthRoleName": "amplify-fisheraiskillsday23-dev-160755-unauthRole",
+      "StackName": "amplify-fisheraiskillsday23-dev-160755",
+      "StackId": "arn:aws:cloudformation:ap-southeast-2:437737057749:stack/amplify-fisheraiskillsday23-dev-160755/cf94a430-6661-11ee-8a11-0aab8283ace8",
+      "AmplifyAppId": "d2yl74dtbwioes"
+    },
+    "categories": {
+      "auth": {
+        "fisheraiskillsday23": {}
+      },
+      "interactions": {
+        "chatbot": {
+          "deploymentBucketName": "amplify-fisheraiskillsday23-dev-160755-deployment",
+          "s3Key": "amplify-builds/chatbot-4e6432344b3265336166-build.zip"
+        }
+      }
+    }
+  }
+}

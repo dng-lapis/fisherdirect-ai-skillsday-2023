@@ -1,0 +1,12 @@
+{
+  "version": "1",
+  "cognitoConfig": {
+    "identityPoolName": "fisheraiskillsday23_identitypool_51434d8a",
+    "allowUnauthenticatedIdentities": true,
+    "authSelections": "identityPoolOnly",
+    "resourceName": "fisheraiskillsday23",
+    "sharedId": "51434d8a",
+    "serviceName": "Cognito",
+    "useDefault": "manual"
+  }
+}
