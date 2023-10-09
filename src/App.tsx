@@ -5,14 +5,15 @@ import { useState } from "react";
 
 function App() {
   const [messageHistory, setMessageHistory] = useState<string[]>([]);
-  const [userInput, setUserInput] = useState(null);
+  const [userInput, setUserInput] = useState<string>("");
   // Provide a bot name and user input
   const sendQuestion = async () => {
-    const response = await Interactions.send(
-      "OrderFlowers_main",
-      userInput ?? ""
-    );
-    setMessageHistory((prev) => [...prev, userInput ?? "", response.message]);
+    if (userInput === "") {
+      return;
+    }
+    const response = await Interactions.send("OrderFlowers_main", userInput);
+    setMessageHistory((prev) => [...prev, userInput, response.message]);
+    setUserInput("");
   };
 
   const onChangeHandler = (event: any) => {
@@ -40,11 +41,13 @@ function App() {
             placeholder="Ask me anything..."
             className="input input-bordered w-full max-w-xs"
             onChange={onChangeHandler}
-            value={userInput ?? ""}
+            value={userInput}
           />
-          <button className="btn" onClick={sendQuestion}>
-            <Send />
-          </button>
+          <div className="ml-2">
+            <button className="btn" onClick={sendQuestion}>
+              <Send />
+            </button>
+          </div>
         </div>
       </CenteredOneColumn>
     </div>
