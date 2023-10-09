@@ -20,6 +20,9 @@
           "deploymentBucketName": "amplify-fisheraiskillsday23-dev-160755-deployment",
           "s3Key": "amplify-builds/chatbot-4e6432344b3265336166-build.zip"
         }
+      },
+      "storage": {
+        "s3cac3f915": {}
       }
     }
   }
