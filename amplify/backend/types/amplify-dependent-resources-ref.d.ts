@@ -1,6 +1,6 @@
 export type AmplifyDependentResourcesAttributes = {
   "auth": {
-    "fisheraiskillsday23": {
+    "fisherdirectlapisecc195fd": {
       "AppClientID": "string",
       "AppClientIDWeb": "string",
       "IdentityPoolId": "string",
@@ -11,14 +11,14 @@ export type AmplifyDependentResourcesAttributes = {
     }
   },
   "interactions": {
-    "fisherbot": {
+    "lex17c091bf": {
       "BotName": "string",
       "FunctionArn": "string",
       "Region": "string"
     }
   },
   "storage": {
-    "s303847029": {
+    "s3bc88def8": {
       "BucketName": "string",
       "Region": "string"
     }

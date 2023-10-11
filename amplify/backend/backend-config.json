@@ -1,49 +1,59 @@
 {
   "auth": {
-    "fisheraiskillsday23": {
+    "fisherdirectlapisecc195fd": {
+      "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {
-        "mfaTypes": [],
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
         "passwordProtectionSettings": {
-          "passwordPolicyCharacters": []
+          "passwordPolicyCharacters": [],
+          "passwordPolicyMinLength": 8
         },
-        "signupAttributes": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
         "socialProviders": [],
-        "usernameAttributes": [],
-        "verificationMechanisms": []
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
       },
       "providerPlugin": "awscloudformation",
-      "service": "Cognito",
-      "serviceType": "managed"
+      "service": "Cognito"
     }
   },
   "interactions": {
-    "fisherbot": {
+    "lex17c091bf": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lex"
     }
   },
   "parameters": {
-    "AMPLIFY_interactions_fisherbot_deploymentBucketName": {
+    "AMPLIFY_interactions_lex17c091bf_deploymentBucketName": {
       "usedBy": [
         {
           "category": "interactions",
-          "resourceName": "fisherbot"
+          "resourceName": "lex17c091bf"
         }
       ]
     },
-    "AMPLIFY_interactions_fisherbot_s3Key": {
+    "AMPLIFY_interactions_lex17c091bf_s3Key": {
       "usedBy": [
         {
           "category": "interactions",
-          "resourceName": "fisherbot"
+          "resourceName": "lex17c091bf"
         }
       ]
     }
   },
   "storage": {
-    "s303847029": {
+    "s3bc88def8": {
       "dependsOn": [],
       "providerPlugin": "awscloudformation",
       "service": "S3"

@@ -1,10 +1,10 @@
 {
   "version": "1",
   "cognitoConfig": {
-    "identityPoolName": "fisheraiskillsday23_identitypool_51434d8a",
+    "identityPoolName": "fisherdirectlapisecc195fd_identitypool_ecc195fd",
     "allowUnauthenticatedIdentities": true,
-    "resourceNameTruncated": "fishera14497b7",
-    "userPoolName": "fisheraiskillsday23_userpool_a14497b7",
+    "resourceNameTruncated": "fisherecc195fd",
+    "userPoolName": "fisherdirectlapisecc195fd_userpool_ecc195fd",
     "autoVerifiedAttributes": [
       "email"
     ],
@@ -31,13 +31,19 @@
     "userpoolClientReadAttributes": [
       "email"
     ],
-    "userpoolClientLambdaRole": "fishera14497b7_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "fisherecc195fd_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
+    "sharedId": "ecc195fd",
+    "resourceName": "fisherdirectlapisecc195fd",
     "authSelections": "identityPoolAndUserPool",
-    "resourceName": "fisheraiskillsday23",
-    "sharedId": "51434d8a",
+    "useDefault": "default",
+    "usernameAttributes": [
+      "email"
+    ],
+    "userPoolGroupList": [],
     "serviceName": "Cognito",
-    "useDefault": "manual",
+    "usernameCaseSensitive": false,
+    "useEnabledMfas": true,
     "authRoleArn": {
       "Fn::GetAtt": [
         "AuthRole",
@@ -51,7 +57,6 @@
       ]
     },
     "breakCircularDependency": true,
-    "useEnabledMfas": true,
     "dependsOn": []
   }
-} 
+}

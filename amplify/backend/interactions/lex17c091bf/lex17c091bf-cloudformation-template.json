@@ -120,12 +120,12 @@
         "FunctionName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "fisherdirectaiskills_cfnlambda_db762dc9",
+            "fisherdirectlapis_cfnlambda_c15f64b6",
             {
               "Fn::Join": [
                 "",
                 [
-                  "fisherdirectaiskills_cfnlambda_db762dc9",
+                  "fisherdirectlapis_cfnlambda_c15f64b6",
                   "-",
                   {
                     "Ref": "env"
@@ -163,7 +163,7 @@
     "LambdaCloudWatchPolicy": {
       "Type": "AWS::IAM::Policy",
       "Properties": {
-        "PolicyName": "cloudWatchPolicydb762dc9",
+        "PolicyName": "cloudWatchPolicyc15f64b6",
         "Roles": [
           {
             "Ref": "LambdaExecutionRole"
@@ -200,12 +200,12 @@
         "RoleName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "lexLambdaRoledb762dc9",
+            "lexLambdaRolec15f64b6",
             {
               "Fn::Join": [
                 "",
                 [
-                  "lexLambdaRoledb762dc9",
+                  "lexLambdaRolec15f64b6",
                   "-",
                   {
                     "Ref": "env"
@@ -233,7 +233,7 @@
         },
         "Policies": [
           {
-            "PolicyName": "lexPolicydb762dc9",
+            "PolicyName": "lexPolicyc15f64b6",
             "PolicyDocument": {
               "Version": "2012-10-17",
               "Statement": [
@@ -263,7 +263,7 @@
             }
           },
           {
-            "PolicyName": "lambdaPolicydb762dc9",
+            "PolicyName": "lambdaPolicyc15f64b6",
             "PolicyDocument": {
               "Version": "2012-10-17",
               "Statement": [
@@ -280,7 +280,7 @@
         ]
       }
     },
-    "LambdaFunctionOutputsdb762dc9": {
+    "LambdaFunctionOutputsc15f64b6": {
       "Type": "Custom::LambdaCallout",
       "Properties": {
         "ServiceToken": {
@@ -306,7 +306,7 @@
     "CognitoUnauthPolicy": {
       "Type": "AWS::IAM::Policy",
       "Properties": {
-        "PolicyName": "lex_amplify_db762dc9",
+        "PolicyName": "lex_amplify_c15f64b6",
         "Roles": [
           {
             "Ref": "unauthRoleName"
@@ -376,7 +376,7 @@
     "CognitoAuthPolicy": {
       "Type": "AWS::IAM::Policy",
       "Properties": {
-        "PolicyName": "lex_amplify_db762dc9",
+        "PolicyName": "lex_amplify_c15f64b6",
         "Roles": [
           {
             "Ref": "authRoleName"

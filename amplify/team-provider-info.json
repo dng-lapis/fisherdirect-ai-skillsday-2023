@@ -1,28 +1,28 @@
 {
-  "main": {
+  "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-fisheraiskillsday23-main-53533-authRole",
-      "UnauthRoleArn": "arn:aws:iam::437737057749:role/amplify-fisheraiskillsday23-main-53533-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::437737057749:role/amplify-fisheraiskillsday23-main-53533-authRole",
+      "AuthRoleName": "amplify-fisherdirectlapis-dev-135834-authRole",
+      "UnauthRoleArn": "arn:aws:iam::970622592715:role/amplify-fisherdirectlapis-dev-135834-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::970622592715:role/amplify-fisherdirectlapis-dev-135834-authRole",
       "Region": "ap-southeast-2",
-      "DeploymentBucketName": "amplify-fisheraiskillsday23-main-53533-deployment",
-      "UnauthRoleName": "amplify-fisheraiskillsday23-main-53533-unauthRole",
-      "StackName": "amplify-fisheraiskillsday23-main-53533",
-      "StackId": "arn:aws:cloudformation:ap-southeast-2:437737057749:stack/amplify-fisheraiskillsday23-main-53533/aad8d090-6665-11ee-a95d-02eca12130e9",
-      "AmplifyAppId": "d29kdy7hhwl1sy"
+      "DeploymentBucketName": "amplify-fisherdirectlapis-dev-135834-deployment",
+      "UnauthRoleName": "amplify-fisherdirectlapis-dev-135834-unauthRole",
+      "StackName": "amplify-fisherdirectlapis-dev-135834",
+      "StackId": "arn:aws:cloudformation:ap-southeast-2:970622592715:stack/amplify-fisherdirectlapis-dev-135834/13735760-67e2-11ee-9a70-028e30cc8c55",
+      "AmplifyAppId": "d3r77xazua9uz8"
     },
     "categories": {
       "auth": {
-        "fisheraiskillsday23": {}
-      },
-      "storage": {
-        "s303847029": {}
+        "fisherdirectlapisecc195fd": {}
       },
       "interactions": {
-        "fisherbot": {
-          "deploymentBucketName": "amplify-fisheraiskillsday23-main-53533-deployment",
-          "s3Key": "amplify-builds/fisherbot-617635384e744c346e41-build.zip"
+        "lex17c091bf": {
+          "deploymentBucketName": "amplify-fisherdirectlapis-dev-135834-deployment",
+          "s3Key": "amplify-builds/lex17c091bf-2b37583136495357547a-build.zip"
         }
+      },
+      "storage": {
+        "s3bc88def8": {}
       }
     }
   }
