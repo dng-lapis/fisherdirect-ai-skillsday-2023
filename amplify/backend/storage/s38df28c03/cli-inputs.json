@@ -1,7 +1,7 @@
 {
-  "resourceName": "s3bc88def8",
-  "policyUUID": "bc88def8",
-  "bucketName": "fisherdirectlapisd33cad9c2faa4c7d911c8bee826ead",
+  "resourceName": "s38df28c03",
+  "policyUUID": "8df28c03",
+  "bucketName": "fisherdirectaiskillsa218d442e8c6468783bbfb98afa",
   "storageAccess": "authAndGuest",
   "guestAccess": [
     "CREATE_AND_UPDATE",

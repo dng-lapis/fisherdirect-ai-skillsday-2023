@@ -1,6 +1,6 @@
 export type AmplifyDependentResourcesAttributes = {
   "auth": {
-    "fisherdirectlapisecc195fd": {
+    "fisherdirectaiskillsf8cccf35": {
       "AppClientID": "string",
       "AppClientIDWeb": "string",
       "IdentityPoolId": "string",
@@ -11,14 +11,14 @@ export type AmplifyDependentResourcesAttributes = {
     }
   },
   "interactions": {
-    "lex17c091bf": {
+    "lexaibot": {
       "BotName": "string",
       "FunctionArn": "string",
       "Region": "string"
     }
   },
   "storage": {
-    "s3bc88def8": {
+    "s38df28c03": {
       "BucketName": "string",
       "Region": "string"
     }

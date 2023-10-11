@@ -1,5 +1,5 @@
 {
-    "resourceName": "lex17c091bf",
+    "resourceName": "lexaibot",
     "intents": [
         {
             "cancelMessage": "Okay, I will not place your order.",

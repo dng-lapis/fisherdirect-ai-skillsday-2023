@@ -1,6 +1,6 @@
 {
   "auth": {
-    "fisherdirectlapisecc195fd": {
+    "fisherdirectaiskillsf8cccf35": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {
@@ -28,14 +28,32 @@
     }
   },
   "interactions": {
-    "lex17c091bf": {
+    "lexaibot": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lex"
     }
   },
+  "parameters": {
+    "AMPLIFY_interactions_lexaibot_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "interactions",
+          "resourceName": "lexaibot"
+        }
+      ]
+    },
+    "AMPLIFY_interactions_lexaibot_s3Key": {
+      "usedBy": [
+        {
+          "category": "interactions",
+          "resourceName": "lexaibot"
+        }
+      ]
+    }
+  },
   "storage": {
-    "s3bc88def8": {
+    "s38df28c03": {
       "dependsOn": [],
       "providerPlugin": "awscloudformation",
       "service": "S3"

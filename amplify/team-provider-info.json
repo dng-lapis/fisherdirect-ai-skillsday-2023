@@ -13,10 +13,16 @@
     },
     "categories": {
       "auth": {
-        "fisherdirectlapisecc195fd": {}
+        "fisherdirectaiskillsf8cccf35": {}
       },
       "storage": {
-        "s3bc88def8": {}
+        "s38df28c03": {}
+      },
+      "interactions": {
+        "lexaibot": {
+          "deploymentBucketName": "amplify-fisheraiskillsday23-main-53533-deployment",
+          "s3Key": "amplify-builds/lexaibot-59384657343345304570-build.zip"
+        }
       }
     }
   }

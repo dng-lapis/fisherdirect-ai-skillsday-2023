@@ -27,11 +27,12 @@ function App() {
       let response: any = null;
       try {
         response = await Interactions.send("OrderFlowers_main", userInput);
+        setMessageHistory((prev) => [...prev, response?.message]);
       } catch (e) {
-
+        setMessageHistory((prev) => [...prev, "Sorry, something went wrong. Please try again later!"]);
+      } finally {
+        setLoading(false);
       }
-      setLoading(false);
-      setMessageHistory((prev) => [...prev, response.message]);
     }, 2000);
 
     setUserInput("");
