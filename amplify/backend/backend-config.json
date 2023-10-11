@@ -34,24 +34,6 @@
       "service": "Lex"
     }
   },
-  "parameters": {
-    "AMPLIFY_interactions_lex17c091bf_deploymentBucketName": {
-      "usedBy": [
-        {
-          "category": "interactions",
-          "resourceName": "lex17c091bf"
-        }
-      ]
-    },
-    "AMPLIFY_interactions_lex17c091bf_s3Key": {
-      "usedBy": [
-        {
-          "category": "interactions",
-          "resourceName": "lex17c091bf"
-        }
-      ]
-    }
-  },
   "storage": {
     "s3bc88def8": {
       "dependsOn": [],
