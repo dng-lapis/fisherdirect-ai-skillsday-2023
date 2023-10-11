@@ -23,6 +23,12 @@
           "deploymentBucketName": "amplify-fisheraiskillsday23-main-53533-deployment",
           "s3Key": "amplify-builds/lexaibot-59384657343345304570-build.zip"
         }
+      },
+      "function": {
+        "fisherdirectaiskills7b2741a5": {
+          "deploymentBucketName": "amplify-fisheraiskillsday23-main-53533-deployment",
+          "s3Key": "amplify-builds/fisherdirectaiskills7b2741a5-634c6867782f63554247-build.zip"
+        }
       }
     }
   }

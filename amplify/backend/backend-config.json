@@ -27,6 +27,36 @@
       "service": "Cognito"
     }
   },
+  "function": {
+    "fisherdirectaiskills7b2741a5": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributes": [
+            "UserPoolId"
+          ],
+          "category": "auth",
+          "resourceName": "fisherdirectaiskillsf8cccf35"
+        },
+        {
+          "attributes": [
+            "BotName"
+          ],
+          "category": "interactions",
+          "resourceName": "lexaibot"
+        },
+        {
+          "attributes": [
+            "BucketName"
+          ],
+          "category": "storage",
+          "resourceName": "s38df28c03"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
   "interactions": {
     "lexaibot": {
       "build": true,
@@ -35,6 +65,22 @@
     }
   },
   "parameters": {
+    "AMPLIFY_function_fisherdirectaiskills7b2741a5_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "fisherdirectaiskills7b2741a5"
+        }
+      ]
+    },
+    "AMPLIFY_function_fisherdirectaiskills7b2741a5_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "fisherdirectaiskills7b2741a5"
+        }
+      ]
+    },
     "AMPLIFY_interactions_lexaibot_deploymentBucketName": {
       "usedBy": [
         {

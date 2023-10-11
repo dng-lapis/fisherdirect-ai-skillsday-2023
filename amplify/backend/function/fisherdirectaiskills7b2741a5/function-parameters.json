@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "auth": {
+      "fisherdirectaiskillsf8cccf35": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    },
+    "interactions": {
+      "lexaibot": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    },
+    "storage": {
+      "s38df28c03": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}
